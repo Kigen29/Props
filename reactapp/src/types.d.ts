@@ -14,3 +14,12 @@ interface WeatherContextProps {
   type ProductProps={
     product: string;
   }
+
+  type FruitType = {
+    id: number;
+    name: string;
+  };
+  
+  type FruitListProps = {
+    fruits: FruitType[];
+  };

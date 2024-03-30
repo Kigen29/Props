@@ -5,13 +5,13 @@ import PropDrilling from './component/PropDrilling';
 import Context from './component/Context';
 import Form from './component/Form';
 import ShoppingApp from './component/ShoppingApp';
-
+import DemoFruit from './component/DemoFruit';
 
 function App() {
   return (
     <div>
       
-      
+      <DemoFruit/>
       <Context />
       <Form />
       <ShoppingApp />
