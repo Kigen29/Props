@@ -23,3 +23,5 @@ interface WeatherContextProps {
   type FruitListProps = {
     fruits: FruitType[];
   };
+
+  

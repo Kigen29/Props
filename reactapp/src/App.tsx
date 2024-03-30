@@ -3,17 +3,19 @@ import "./App.css";
 import Counter from './component/Counter';
 import PropDrilling from './component/PropDrilling';
 import Context from './component/Context';
-import Form from './component/Form';
+import Login from './component/Login';
 import ShoppingApp from './component/ShoppingApp';
 import DemoFruit from './component/DemoFruit';
+import Register from './component/Register';
+
 
 function App() {
   return (
     <div>
-      
+      <Register/>
       <DemoFruit/>
       <Context />
-      <Form />
+      <Login />
       <ShoppingApp />
     </div>
   );
