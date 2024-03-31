@@ -24,4 +24,9 @@ interface WeatherContextProps {
     fruits: FruitType[];
   };
 
+  type ColourProps = {
+    colour: string;
+    changeColour: () => void;
+}
+
   

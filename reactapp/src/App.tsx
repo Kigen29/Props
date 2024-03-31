@@ -7,16 +7,25 @@ import Login from './component/Login';
 import ShoppingApp from './component/ShoppingApp';
 import DemoFruit from './component/DemoFruit';
 import Register from './component/Register';
+import ColourContextProvider  from './context/ColourContextProvider';
+import Colour from './component/Colour';
 
 
 function App() {
   return (
     <div>
+
+<ColourContextProvider>
+
       <Register/>
       <DemoFruit/>
       <Context />
       <Login />
       <ShoppingApp />
+      <Colour/>
+
+</ColourContextProvider>
+      
     </div>
   );
 }
